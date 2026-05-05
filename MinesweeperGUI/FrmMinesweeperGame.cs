@@ -80,7 +80,7 @@ namespace MinesweeperGUI
             {
                 MessageBox.Show("You hit a bomb!");
             }
-            else if (true)
+            else if (boardService.CheckWin(board))
             {
                 int finalScore = gridSize * board.Difficulty * 100;
 
