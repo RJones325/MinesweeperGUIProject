@@ -31,6 +31,11 @@ namespace MinesweeperGUI
         {
             InitializeComponent();
 
+            saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
+            byNameToolStripMenuItem.Click += byNameToolStripMenuItem_Click;
+            byScoreToolStripMenuItem.Click += byScoreToolStripMenuItem_Click;
+           
+
             if (File.Exists(filePath))
             {
                 LoadScores();
@@ -78,6 +83,7 @@ namespace MinesweeperGUI
             }
 
             File.WriteAllLines(filePath, lines);
+            
         }
 
         private void loadToolStripMenuItem_Click(object sender, EventArgs e)
@@ -111,12 +117,16 @@ namespace MinesweeperGUI
         public Form4()
         {
             InitializeComponent();
+
+            saveToolStripMenuItem.Click += saveToolStripMenuItem_Click;
+            byNameToolStripMenuItem.Click += byNameToolStripMenuItem_Click;
+            byScoreToolStripMenuItem.Click += byScoreToolStripMenuItem_Click;
+            
         }
 
         
 
-        
 
-       
+      
     }
 }

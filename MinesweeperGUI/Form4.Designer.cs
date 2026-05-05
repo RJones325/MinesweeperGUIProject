@@ -72,19 +72,21 @@
             sortToolStripMenuItem.Name = "sortToolStripMenuItem";
             sortToolStripMenuItem.Size = new Size(180, 22);
             sortToolStripMenuItem.Text = "Save";
+            sortToolStripMenuItem.Click += saveToolStripMenuItem_Click;
             // 
             // byNameToolStripMenuItem
             // 
             byNameToolStripMenuItem.Name = "byNameToolStripMenuItem";
             byNameToolStripMenuItem.Size = new Size(180, 22);
             byNameToolStripMenuItem.Text = "Load";
-            byNameToolStripMenuItem.Click += byNameToolStripMenuItem_Click;
+            byNameToolStripMenuItem.Click += saveToolStripMenuItem_Click;
             // 
             // byScoreToolStripMenuItem
             // 
             byScoreToolStripMenuItem.Name = "byScoreToolStripMenuItem";
             byScoreToolStripMenuItem.Size = new Size(180, 22);
             byScoreToolStripMenuItem.Text = "Exit";
+            byScoreToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
             // saveToolStripMenuItem
             // 
@@ -98,18 +100,21 @@
             byNameToolStripMenuItem1.Name = "byNameToolStripMenuItem1";
             byNameToolStripMenuItem1.Size = new Size(180, 22);
             byNameToolStripMenuItem1.Text = "By Name";
+            byNameToolStripMenuItem1.Click += byNameToolStripMenuItem_Click;
             // 
             // byScoreToolStripMenuItem1
             // 
             byScoreToolStripMenuItem1.Name = "byScoreToolStripMenuItem1";
             byScoreToolStripMenuItem1.Size = new Size(180, 22);
             byScoreToolStripMenuItem1.Text = "By Score";
+            byScoreToolStripMenuItem1.Click += byScoreToolStripMenuItem_Click;
             // 
             // byDateToolStripMenuItem1
             // 
             byDateToolStripMenuItem1.Name = "byDateToolStripMenuItem1";
             byDateToolStripMenuItem1.Size = new Size(180, 22);
             byDateToolStripMenuItem1.Text = "By Date";
+            byDateToolStripMenuItem1.Click += byDateToolStripMenuItem_Click;
             // 
             // Form4
             // 

@@ -25,7 +25,7 @@ namespace MinesweeperGUI
         public Form3(int score)
         {
             InitializeComponent();
-
+            
             btnOK.Click += btnOK_Click;
 
             finalScore = score;
